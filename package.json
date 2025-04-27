@@ -1,0 +1,27 @@
+{
+  "name": "my-portfolio",
+  "version": "1.0.0",
+  "description": "Creating My PortFolio Website",
+  "homepage": "https://github.com/Code-Master20/My-PortFolio#readme",
+  "bugs": {
+    "url": "https://github.com/Code-Master20/My-PortFolio/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Code-Master20/My-PortFolio.git"
+  },
+  "license": "ISC",
+  "author": "Sahidur Miah",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
